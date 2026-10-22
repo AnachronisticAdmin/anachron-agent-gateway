@@ -1,0 +1,21 @@
+name: Bug report
+description: Report a non-sensitive bug with a synthetic reproduction.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include credentials, real transcripts, recordings or private paths.
+        For a suspected vulnerability, follow SECURITY.md; do not disclose details here.
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal synthetic reproduction
+      description: Include the source revision, Go version, OS and commands without private data.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true

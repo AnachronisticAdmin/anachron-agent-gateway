@@ -1,0 +1,18 @@
+name: Feature request
+description: Propose a bounded capability or API improvement.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the use case with synthetic examples, not customer material.
+        A feature request does not authorize privileged access or deployment.
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case and acceptance criteria
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Security, compatibility and scope boundaries

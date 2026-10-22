@@ -1,0 +1,13 @@
+Anachron Agent Gateway
+Copyright 2026 Julian Wiley
+
+Owned first-party source is provided under Apache License 2.0.
+Selected source was extracted and modified for independent execution,
+bounded protocol/lifecycle handling, permission correlation, redaction,
+synthetic regression fixtures and standalone module packaging.
+
+The Go toolchain and standard library are not vendored here.
+The Go root BSD-3-Clause notice is reproduced in third_party/GO-LICENSE.
+
+No commercial agent, browser recorder or desktop-media project is bundled.
+GitHub Actions referenced by CI are separate MIT-licensed upstream tools.

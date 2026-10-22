@@ -1,0 +1,12 @@
+/validation/
+/bin/
+/gateway-demo
+/fake-agent
+*.test
+*.exe
+.env
+.env.*
+!.env.example
+/recordings/
+/private/
+.DS_Store
