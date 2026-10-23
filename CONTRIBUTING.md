@@ -1,6 +1,6 @@
 # Contributing to Anachron Agent Gateway
 
-Julian Wiley is the designated maintainer. This is an unreleased source preview; when a public contribution surface becomes available, discuss non-sensitive behavior changes with the maintainer before a large change and follow [SECURITY.md](SECURITY.md) for sensitive reports.
+Julian Wiley is the designated maintainer and acceptance authority for this experimental source preview. When the repository's public contribution surface is available, discuss non-sensitive behavior changes with the maintainer before a large change and follow [SECURITY.md](SECURITY.md) for sensitive reports; no external reviewer, guaranteed response time or support agreement is implied.
 
 ## Local checks
 

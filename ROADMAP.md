@@ -4,7 +4,7 @@ This is a review-priority list, not a delivery schedule, compatibility guarantee
 
 ## Near-term review
 
-- **Public-source readiness:** Independently review the exact source, security-reporting route, notices and reproducibility evidence.
+- **Public-source readiness:** Obtain the maintainer's exact-scope acceptance/publication decision, verify the reporting route and notices, and retain revision-bound reproducibility evidence without claiming independent certification.
 - **API clarity:** Gather synthetic embedding examples and keep the host's authentication responsibility explicit.
 - **Regression depth:** Extend adversarial permission, protocol, cancellation and credential-retention coverage.
 

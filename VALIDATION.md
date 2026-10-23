@@ -1,6 +1,6 @@
 # Source-preview validation
 
-Executed October 22, 2026 on the independently renamed source preview, using Go 1.26.10 on Linux amd64 with a working C compiler. These are local synthetic checks, not a hosted GitHub run, native macOS/Windows acceptance, vendor authentication, public release or independent security sign-off.
+The local baseline below was executed October 22, 2026 on the independently buildable source preview, using Go 1.26.10 on Linux amd64 with a working C compiler. Hosted evidence is recorded separately; neither evidence class establishes native macOS/Windows acceptance, vendor authentication, public release or independent security certification.
 
 ## Reproduce
 
@@ -8,7 +8,7 @@ Use Go 1.26.10 and a working C compiler on the Linux amd64 baseline. From a clea
 
 The fake-agent examples exercise only owned temporary fixture data and require no provider credentials or native-media permission. A source-inventory check and a green test suite are not complete secret, vulnerability, privacy or legal audits.
 
-## Observed local results
+## Recorded local baseline
 
 | Check | Observed result |
 | --- | --- |
@@ -27,6 +27,12 @@ The fake-agent examples exercise only owned temporary fixture data and require n
 
 The exported toolchain pin was advanced from 1.26.9 after a module-level standard-library advisory result, without a Gateway symbol call trace. The advisory affects `crypto/x509.Certificate.Verify` and lists the fixed boundary as Go 1.26.10; the later scan used that patch ([GO-2026-6809](https://pkg.go.dev/vuln/GO-2026-6809)).
 
+## Hosted evidence and later revisions
+
+Both `check` and `fuzz-and-targets` passed in [Source checks run 39862889659](https://github.com/AnachronisticAdmin/anachron-agent-gateway/actions/runs/39862889659) for baseline commit `ed477b6c42c69e9b90fb0492f771815c869350e1`, with the same pinned Go toolchain and scripts. Hosted Linux execution and macOS/Windows cross-compilation are still different evidence classes; the local JSON event count above is not a count extracted from that hosted run.
+
+Later documentation/inventory candidates must receive their own revision-bound checks before tagging. Scan/database timestamps, counts and results are observations for the checked revision, not an evergreen absence-of-defects guarantee; a release receipt should record any repeated validation rather than relabel this dated baseline.
+
 ## Target and fixture boundaries
 
 Compilation passed for Linux amd64, macOS arm64, macOS amd64 and Windows amd64 with `CGO_ENABLED=0`. Linux is the only executed runtime; compilation does not establish native behavior or Windows process-tree containment.
@@ -35,6 +41,8 @@ The denial and cancellation demos do not create the fixture file, while explicit
 
 The source-SBOM check validates the declared module, recorded toolchain, file records and relationships; it is not a signed provenance attestation. Scanner results are limited observations, not a guarantee against all secrets, vulnerabilities or private content, and source-only composition is not a complete binary inventory.
 
-## Remaining release gates
+## Publication and acceptance boundary
 
-Hosted CI has not run, a confidential public reporting route is not yet configured and independent technical/privacy review is outstanding. No repository, public source upload, release tag or binary release is created by these local checks; approval of the exact public payload remains separate.
+The maintainer is the acceptance authority; no independent-review requirement or completed independent review is asserted. Exact public-payload approval, truthful reporting/control configuration and any material findings remain release decisions, and a new candidate's checks must not be inferred from the baseline run.
+
+The intended public reporting control is described conditionally in `SECURITY.md` and must be verified in the repository itself. Local tests do not create public visibility, a version tag, a hosted release or binaries.

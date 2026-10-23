@@ -4,7 +4,9 @@ An experimental Go execution core for embedding ACP-speaking agents with request
 
 ## Status
 
-This is an unreleased source preview prepared for module path `github.com/AnachronisticAdmin/anachron-agent-gateway`. Repository creation, public publication, hosted CI and a release tag are not implied by these local files; see [VALIDATION.md](VALIDATION.md) for executed checks and [SECURITY.md](SECURITY.md) for reporting status and security limits.
+This is an experimental source preview for module path `github.com/AnachronisticAdmin/anachron-agent-gateway`, with a maintainer-led acceptance workflow and no stable API or production-support guarantee. Repository tags, releases and revision-specific workflow results are the publication/evidence records; this file alone does not establish that a particular version has been published or passed CI.
+
+See [VALIDATION.md](VALIDATION.md) for the executed Linux baseline and hosted evidence, and [SECURITY.md](SECURITY.md) for conditional confidential-reporting instructions and security limits. No independent security audit or certification is claimed.
 
 ## What is included
 
@@ -38,7 +40,7 @@ sh ci/check.sh
 sh ci/fuzz-and-targets.sh
 ```
 
-The checked-in GitHub workflow uses the same scripts. Its existence is not evidence that a hosted run has occurred.
+The checked-in GitHub workflow uses the same scripts. [The original source baseline passed both hosted jobs](https://github.com/AnachronisticAdmin/anachron-agent-gateway/actions/runs/39862889659); a prior green run does not prove that a different revision passed, so check the exact commit or tag's workflow result.
 
 ## Embedding
 

@@ -3,9 +3,9 @@
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
   "name": "Anachron Agent Gateway source inventory",
-  "documentNamespace": "urn:sha256:4938fedee88f8a72d53c2c481b174bf97c6d964c3cb837fc3b29bd8373b920ee",
+  "documentNamespace": "urn:sha256:8d8525707f7ef14e88f12030c1c7cc8d473f117f199f68c3ebf7b43cc7cd3ecd",
   "creationInfo": {
-    "created": "2026-10-22T21:51:47Z",
+    "created": "2026-10-23T05:18:04Z",
     "creators": [
       "Tool: anachron-agent-gateway-source-sbom"
     ]
@@ -28,7 +28,7 @@
         "packageVerificationCodeExcludedFiles": [
           "./sbom.source.spdx.json"
         ],
-        "packageVerificationCodeValue": "477bfb87235947565750756db5f3ad3988e249fd"
+        "packageVerificationCodeValue": "f75595d612d9d3260bd4b63c73fc19a8f6d0ba22"
       },
       "versionInfo": "0.1.0-alpha.1-dev"
     },
@@ -127,11 +127,11 @@
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "c37583719c182a6bda49cceaae852e64fc179bb6a8eaa0d4136781f2763fee9e"
+          "checksumValue": "da4e1d35816376c74b9e146c167993acb3acc6d6dfb7ed359608800bacb2280d"
         },
         {
           "algorithm": "SHA1",
-          "checksumValue": "16e567a988b9b71b0cd82ce5ddac4228e7f1f278"
+          "checksumValue": "b0e3f11a9823e41499532dde18e900b6d31c1b98"
         }
       ],
       "licenseConcluded": "NOASSERTION",
@@ -146,11 +146,11 @@
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "c0f3aa77d136a4b7f13d14df713a8917f74da2c6855c203fa76cbaa77d990dd2"
+          "checksumValue": "8e1d6dd32bcb11a4b53411a5e54e06e06b000d22baa95c54d0f8da9fde8b52d2"
         },
         {
           "algorithm": "SHA1",
-          "checksumValue": "56a5753d0cc69362d90a9f9e84469469ac56303f"
+          "checksumValue": "e1ff66877bc46b0eadfb01666783e0e9ceb64cd7"
         }
       ],
       "licenseConcluded": "NOASSERTION",
@@ -222,11 +222,11 @@
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "9f2451d24a2dd7308d1c954963897c3f9baf2377b463efbdb9a6e4816ecfccab"
+          "checksumValue": "4804819b6fe1b0530f954196e44c68fd1be30cdf667981e830caaab073e3f930"
         },
         {
           "algorithm": "SHA1",
-          "checksumValue": "c360ac33a2a76906e58982bcdfabb1aa4424717b"
+          "checksumValue": "dcb7cd048525f876a0c77613072032dfe39ac63a"
         }
       ],
       "licenseConcluded": "NOASSERTION",
@@ -241,11 +241,11 @@
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "6a4696ae2ebb6ea7ea9f1d2af1491e658c78f013070bb866a6cf4884c7e52414"
+          "checksumValue": "2694f8c70963c7c7c6d6d653c4d4e00745b1ed21c90d03563b9ac6998d5c1d95"
         },
         {
           "algorithm": "SHA1",
-          "checksumValue": "188ac4e3ba77c85893fb7a0d6788496f801b9efa"
+          "checksumValue": "7ee2d3b00aef1271dfd5ebcf32fc12f26e0ad804"
         }
       ],
       "licenseConcluded": "NOASSERTION",
@@ -260,11 +260,11 @@
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "25386ccf8c4d364e3b9665a54d747267d17c240dd1dd0760149202a580e65c55"
+          "checksumValue": "d4b1817c9eb6ed766011946ac31d61f02b206754f706968e036dae0f05d5d31c"
         },
         {
           "algorithm": "SHA1",
-          "checksumValue": "aa5834107883f21d74c7f1e80e8cc85d0b6c5c58"
+          "checksumValue": "5b0347413f4f1926c394aa4cd231ce8148e0ce96"
         }
       ],
       "licenseConcluded": "NOASSERTION",
@@ -298,11 +298,11 @@
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "1415191410fd1e987fe279ef5cb88dac74c9004be0f3cf9f2bb0ccb9cc246c71"
+          "checksumValue": "d52c6a98321772ec0a801b62ba1f5e0a047c9a2348530f1a312c46a80cb70899"
         },
         {
           "algorithm": "SHA1",
-          "checksumValue": "40bfa721a8c819f99f19b39af33f463bee81efa0"
+          "checksumValue": "03a7809695f9f29414a55b5a34608e8a911466eb"
         }
       ],
       "licenseConcluded": "NOASSERTION",

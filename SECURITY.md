@@ -1,14 +1,14 @@
 # Security policy and boundary
 
-Anachron Agent Gateway is an unreleased experimental source preview, not an accepted sandbox or production security product. There is no supported stable release, guaranteed response time, security SLA or bug-bounty commitment.
+Anachron Agent Gateway is an experimental source preview, not an accepted sandbox or production security product. There is no supported stable release, guaranteed response time, security SLA, bug-bounty commitment or claimed independent security certification.
 
 ## Confidential reporting
 
 Do not put credentials, transcripts, recordings, private paths, unredacted support bundles or live exploit details into public issues or pull requests. A minimal synthetic reproduction is appropriate for an ordinary non-sensitive bug.
 
-The confidential reporting route is not configured by this local source export. Before publication, the maintainer must enable and verify the repository's private vulnerability reporting, or explicitly provide another working confidential route; do not invent a contact address or assume that this file enables a reporting service.
+The intended confidential route for public source versions is GitHub private vulnerability reporting, which the maintainer enables and verifies as part of publication. This file cannot enable that service; the repository's actual settings and visible reporting control determine its availability.
 
-For an eventual published repository, use its Security tab's private reporting option only after it is available. If no confidential route is shown, withhold sensitive details rather than posting them publicly; configuration guidance is in [GitHub's private-reporting documentation](https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/configure-vulnerability-reporting/configure-for-a-repository).
+On the repository's Security tab, open Advisories and use **Report a vulnerability** only when GitHub presents that private-reporting option. If the option is absent or fails, withhold sensitive details rather than using a public issue or pull request; no alternate mailbox or working confidential route is implied. Configuration guidance is in [GitHub's private-reporting documentation](https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/configure-vulnerability-reporting/configure-for-a-repository).
 
 ## Implemented controls
 
